@@ -1,0 +1,37 @@
+22:19:19.705 INFO  GCLog - START_UP_PROCESS: GameCenterApplication onCreate: EnvInit.init(), GameCenterBizApplication.onAppInit(), XDownloadInstallHelper.init(),ActivateNotificationManager.triggeredNotify() will execute!
+22:19:19.962 INFO  GCLog - START_UP_PROCESS: BootController appCreateInit(), boot hasReady: -1
+22:19:19.986 INFO  GCLog - START_UP_PROCESS: AmsServiceImpl appCreateInit checkUdidHasSigned() will execute.
+22:19:20.423 INFO  GCLog - PowerKitManager: initPowerKitCompat init ,powerKitTag=f814734f-a00f-4569-b7aa-028f2ac39eac
+22:19:20.430 INFO  GCLog - AmsServiceImpl: udid in sp sign state=0
+22:19:20.436 INFO  GCLog - AmsServiceImpl: ams no cache
+22:19:20.439 INFO  GCLog - GameAssistantImpl: isInstallGameAssistant: true
+22:19:20.506 INFO  GCLog - ConfigHelper: webpage_loadLocalWhiteList start
+22:19:20.531 INFO  GCLog - DownloadTaskHelper: initXDownload,true ,null
+22:19:20.569 INFO  GCLog - GameCenterApplication: batteryConditionBroadcastSupport=true
+22:19:20.571 INFO  GCLog - ComponentUtil: setComponentEnabledSetting cls=class com.hihonor.gamecenter.gcdownloadinstallservice.receiver.WifiStateChangeReceiver,isEnabled=true
+22:19:20.573 INFO  GCLog - ComponentUtil: setComponentEnabledSetting cls=class com.hihonor.gamecenter.gcdownloadinstallservice.receiver.WifiStateChangeReceiverWithoutConditions,isEnabled=false
+22:19:20.693 INFO  GCLog - START_UP_PROCESS: GameCenterApplication onCreated: EnvInit.init(), GameCenterBizApplication.onAppInit(), XDownloadInstallHelper.init(),ActivateNotificationManager.triggeredNotify() finish!
+22:19:20.704 INFO  GCLog - ConfigHelper: webpage_loadLocalWhiteList end
+22:19:20.706 INFO  GCLog - GameAssistantImpl: isInstallGameAssistant: true
+22:19:20.724 INFO  GCLog - PowerConnectedReceiver: onReceive p1 is: android.intent.action.ACTION_POWER_CONNECTED
+22:19:20.757 INFO  GCLog - GameCenterApplication: verify cold start msg,run
+22:19:20.904 INFO  GCLog - GameAssistantImpl: udid is agree for SDK: 0
+22:19:20.907 INFO  GCLog - START_UP_PROCESS: AmsServiceImpl getUdidSignStateByGameAssistant state=0
+22:19:20.962 INFO  GCLog - CookieCenter: setDeviceInfoCookie start
+22:19:20.969 INFO  GCLog - START_UP_PROCESS: BootController appStartInit() invoked by GameCenterBizApplication onAppInit, boot hasReady: -1
+22:19:20.991 INFO  GCLog - DeviceInfo: getRiskControlDeviceId start
+22:19:20.994 INFO  GCLog - DeviceInfo: getRiskControlDeviceId getUdId suc
+22:19:21.100 ERROR GCLog - HonorDeviceUtils: getAppInfoFromPkgName fail -> com.hihonor.quickgame
+22:19:21.102 INFO  GCLog - QuickGame: isSupportQuickGameQuery() is not support, versioncode:null
+22:19:21.321 INFO  GCLog - NetConnectChangeReceiver: onReceive action is: android.net.conn.CONNECTIVITY_CHANGE
+22:19:24.790 INFO  GCLog - START_UP_PROCESS: GameCenterBizApplication onAppInit preLoadMainPageData() will execute!
+22:19:25.668 INFO  GCLog - XDownload: continueAll start
+22:19:25.910 INFO  GCLog - XDownload: continueAll end
+22:20:13.364 INFO  GCLog - ScreenReceiver: action: android.intent.action.SCREEN_OFF
+22:20:13.381 ERROR GCLog - ScreenReceiver: android.intent.action.SCREEN_OFF isAmsBasicModeIntercept() user not Agreed return！
+22:22:09.071 INFO  GCLog - ScreenReceiver: action: android.intent.action.SCREEN_ON
+22:22:09.083 ERROR GCLog - ScreenReceiver: android.intent.action.SCREEN_ON isAmsBasicModeIntercept() user not Agreed return！
+22:25:30.570 INFO  GCLog - ScreenReceiver: action: android.intent.action.SCREEN_OFF
+22:25:30.578 ERROR GCLog - ScreenReceiver: android.intent.action.SCREEN_OFF isAmsBasicModeIntercept() user not Agreed return！
+22:25:37.032 INFO  GCLog - ScreenReceiver: action: android.intent.action.SCREEN_ON
+22:25:37.034 ERROR GCLog - ScreenReceiver: android.intent.action.SCREEN_ON isAmsBasicModeIntercept() user not Agreed return！
